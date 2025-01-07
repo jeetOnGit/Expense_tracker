@@ -4,9 +4,73 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
+
+.white-mode{
+    background-color: #fff;
+    color: #000;
+}
+.dark-mode{
+    background-color: #181818;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo{
+    width: 50px;
+}
+.fa-solid{
+    font-size: 25px;
+    cursor: pointer;
+}
 .header{
     text-align: center;
 }
 header h1{
     font-weight: 600;
+}
+
+.container{
+    padding: 20px 30px;
+}
+.userInputes form{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+form #expenseName{
+    width: 30%;
+}
+.userInputes input{
+    padding: 6px 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.userInputes .expenseName{
+    width: 400px;
+}
+button{
+    padding: 6px 10px;
+    cursor: pointer;
+}
+select{
+    padding: 6px 5px;
+}
+.expenseData{
+    margin-top: 20px;
+}
+.expenseData table, th, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th, td{
+    padding-left: 10px;
+}
+table{
+    width: 80%;
+    text-align: left;
 }
